@@ -1,0 +1,35 @@
+{
+  "name": "lite-migrate",
+  "version": "1.0.0",
+  "description": "This is simple and light weight database migration tool built to work with sqlite3. Run npm install --save -g lite-migrate and configure using .lightmigrate file in your project root directory. Now database Migration and Seeding becomes easier with this tool. Run lite-migrate --help to know commands and useage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "lite-migrate"
+  },
+  "keywords": [
+    "Sqlite3",
+    "Database",
+    "Migration",
+    "Seeding",
+    "CLI",
+    "Tool"
+  ],
+  "author": "prem-sh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prem-sh/lite-migrate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prem-sh/lite-migrate/issues"
+  },
+  "homepage": "https://github.com/prem-sh/lite-migrate#readme",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "commander": "9.3.0",
+    "sqlite3": "^5.0.8"
+  },
+  "bin": {
+    "lite-migrate": "bin/lite-migrate.js"
+  }
+}
